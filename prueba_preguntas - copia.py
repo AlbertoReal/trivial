@@ -192,7 +192,7 @@ def juego (turno,jugadores_totales):
                 racha=0
                 print ("\n")
                 print ("*****jugador" ,jugador[0][3],"es tu turno*****\n")
-                print ("La pregunta es de: ",pregunta[0][0])
+                print ("La pregunta es de: ",pregunta[tirada_dado][0])
                 print (pregunta[tirada_dado][1])
                 print ("\n")
                 print (pregunta[tirada_dado][2])
